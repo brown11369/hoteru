@@ -1,0 +1,60 @@
+.panel-heading {
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.panel-title {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.add-btn {
+    display: flex;
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    align-items: center;
+    gap: 7px;
+}
+
+.add-btn:hover {
+    background-color: #0056b3;
+}
+
+.add-icon {
+    margin-right: 5px;
+}
+
+
+/* table */
+
+
+.blogTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.blogTable th, .blogTable td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.blogTable th {
+    background-color: #f2f2f2;
+}
+
+.blogTable tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.blogTable tr:hover {
+    background-color: #dddddd;
+}
+
+.blogTable td span {
+    cursor: pointer;
+    color: blue;
+}

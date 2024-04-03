@@ -1,0 +1,94 @@
+.hero-section img {
+    /* position: relative; */
+    height: 400px;
+    width: 1349px;
+}
+
+/* hotel feature */
+
+
+.hotel-features {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.feture_icon {
+    font-size: 34px;
+    color: var(--dsh-clr2);
+    margin-bottom: 5px;
+}
+
+.feature span {
+    font-size: 14px;
+}
+
+
+
+/* ----- */
+
+.services_title {
+    font-size: 26px;
+    padding-block: 20px;
+}
+
+.services_title span {
+    color: var(--dsh-clr2);
+    border-bottom: 2px solid var(--dsh-clr2);
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-block: 20px;
+}
+
+/* review bar */
+
+.review_container {
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+.review {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    padding: 20px;
+}
+
+.name {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.date {
+    font-size: 0.9em;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.rating {
+    color: var(--dsh-clr2);
+    margin-bottom: 10px;
+}
+
+.comment {
+    color: #555;
+    line-height: 1.5;
+}

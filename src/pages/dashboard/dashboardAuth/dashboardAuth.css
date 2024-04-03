@@ -1,0 +1,64 @@
+.dashboard-auth {
+    background-color: #eef7eb;
+    height: 100vh;
+    display: flex;
+}
+
+.auth-container {
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #e4ecf2;
+}
+
+.auth-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.auth-container form>input {
+    background-color: #eee;
+    font-size: 18px;
+    padding: 3px 5px;
+    border: none;
+    margin: 20px 10px 0px 0px;
+}
+
+.password-visible-input {
+    background-color: #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 10px 0px 0px;
+}
+
+.password-visible-input input {
+    background-color: #eee;
+    font-size: 18px;
+    padding: 3px 5px;
+    border: none;
+}
+
+.btn {
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.btn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.authpage-swith{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin: 10px;
+}

@@ -1,0 +1,64 @@
+.room-card {
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin: 20px auto;
+ }
+ .room-image img{
+    position: relative;
+    width: 100%;
+    height: 200px;
+ }
+ .room-image .roomImage {
+    background: url('https://via.placeholder.com/300x200') center/cover no-repeat;
+ }
+ 
+ .room-details {
+    padding: 20px;
+ }
+ 
+ .room-title {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+ }
+ 
+ .room-description {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 15px;
+ }
+ 
+ .room-price span {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: var(--dsh-clr2);
+ }
+ 
+ .room-info {
+    display: flex;
+    justify-content: space-between;
+ }
+ 
+ .room-price {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #333;
+ }
+ 
+ .room-info button {
+    font-size: 14px;
+    font-weight: bold;
+    background-color: var(--dsh-clr2);
+    color: #fff;
+    padding: 8px 20px;
+    border: 2px solid var(--dsh-clr2);
+    cursor: pointer;
+ }
+ 
+ .room-info button:hover{
+    background-color: #fff;
+    color: var(--dsh-clr2);
+    padding: 8px 20px;
+    border: 2px solid var(--dsh-clr2);
+ }

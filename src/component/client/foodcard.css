@@ -1,0 +1,44 @@
+.dish_card {
+    width: 295px;
+    overflow: hidden;
+    border-radius: 25px;
+    border: 1px solid lavender;
+    margin: 10px;
+    box-shadow: 5px 5px 15px 5px rgba(230, 230, 250, 1);
+ }
+ 
+ .dish_image {
+    position: relative;
+    height: 140px;
+ }
+ .dish_image > img {
+    max-width: 100%;
+    border-bottom-right-radius: 30px;
+    transform: rotate(10deg) translate(-15px, -55px);
+    position: absolute;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+ }
+ 
+ .dish_info {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 30px 30px 20px 30px;
+ }
+ .dish_info h3 {
+    font-size: 18px;
+    font-weight: 700;
+ }
+ .dish_info p {
+    font-size: 14px;
+    font-weight: 600;
+ }
+ .dish_value {
+    text-align: right;
+    color: var(--dsh-clr2);
+ }
+ .checked {
+   color: var(--dsh-clr2);
+ }
