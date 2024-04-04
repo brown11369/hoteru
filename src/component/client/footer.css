@@ -13,11 +13,13 @@
 .footer-item {
     width: 30%;
 }
+
 .footer-item p {
     font-size: 15px;
     line-height: 20px;
     margin-block: 20px;
 }
+
 .footer-item h3 {
     line-height: 30px;
     display: inline-block;
@@ -32,8 +34,20 @@
     padding-block: 10px;
 }
 
+.footer-item a {
+    color: #fff;
+}
+
+.footer-item a:hover {
+    color: var(--dsh-clr2);
+}
+
 .footer-item li:hover {
     color: var(--dsh-clr2);
+}
+
+.footer-item .social-icons {
+    padding-block: 10px;
 }
 
 .footer-bottom {

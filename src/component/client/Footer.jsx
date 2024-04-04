@@ -16,32 +16,30 @@ export default function Footer() {
                     <div className="footer-item">
                         <h3>Extra Links</h3>
                         <ul>
-                            <li>Home</li>
-                            <li>About</li>
-                            <li>Menu</li>
-                            <li>Rooms</li>
-                            <li>Blog</li>
+                            <li><Link to="/">Home</Link></li>
+                            <li><Link to="/about">About</Link></li>
+                            <li><Link to="/dishes">Dishes</Link></li>
+                            <li><Link to="/rooms">Rooms</Link></li>
+                            <li><Link to="/blog">Blog</Link></li>
                         </ul>
                     </div>
                     <div className="footer-item">
-                        <h3>Our Services</h3>
+                        <h3>Other Links</h3>
                         <ul>
-                            <li>Jobs</li>
-                            <li>Support</li>
-                            <li>Contact</li>
+                            <li><Link to="/restaurant-menu">Menu</Link></li>
+                            <li><Link to="/jobs">Jobs</Link></li>
+                            <li><Link to="/contact">Contact</Link></li>
                             <li><Link to="/privacy">Privacy Policy</Link></li>
                             <li><Link to="/terms">Terms and Service</Link></li>
                         </ul>
                     </div>
                     <div className="footer-item">
                         <h3>Social Media</h3>
-                        <div>
-                            <span>
+                        <div className="social-icons">
                                 <FaFacebookSquare className="header_icons" />
                                 <FaSquareInstagram className="header_icons" />
                                 <FaSquareTwitter className="header_icons" />
                                 <FaLinkedin className="header_icons" />
-                            </span>
                         </div>
                     </div>
                 </div>

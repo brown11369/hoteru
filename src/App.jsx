@@ -30,6 +30,7 @@ import Protected from './component/dashboard/Protected'
 import RestaurantMenu from './component/client/RestaurantMenu'
 
 import { HelmetProvider } from 'react-helmet-async';
+import Jobs from './component/client/Jobs'
 
 
 
@@ -68,6 +69,10 @@ const router = createBrowserRouter([
           {
             path: "user",
             element: <User />
+          },
+          {
+            path: "jobs",
+            element: <Jobs />
           },
           {
             path: "privacy",
